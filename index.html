@@ -53,47 +53,64 @@
             </div>
         </div>
 
-        <script>
-            // Generar los 6 artículos rápidamente
-            const titulos = [
-                "Fake Lag Totalmente Gratis Descargar Para Android",
-                "Mejores Configuraciones de Sensibilidad 2026",
-                "Macro Bolitas Azules - Guía Completa",
-                "Regedit Mobile VIP: Aumenta tu DPI",
-                "Pack de Texturas Visibles Ropa y Armas",
-                "Solución al Ping Alto y Lag en Gama Baja"
-            ];
-            const descripciones = [
-                "¿Quieres mejorar tu experiencia en Free Fire con la ayuda de un fake lag en Android?",
-                "Descubre la sensibilidad perfecta para dar todo rojo. Probado por profesionales.",
-                "Aprende a instalar y configurar la macro de bolitas azules para mejorar tu precisión.",
-                "Optimiza el registro de tu dispositivo Android para tener una respuesta más rápida.",
-                "Personaliza tu juego con este pack de texturas que incluye las skins más exclusivas.",
-                "Métodos efectivos para reducir el ping y eliminar el lag en dispositivos gama baja."
-            ];
+        <article class="card">
+            <img src="fake lag.jpeg" class="card-image" onclick="irAIndex2()">
+            <div class="card-content">
+                <h2 class="card-title" onclick="irAIndex2()">Fake Lag Totalmente Gratis Descargar Para Android</h2>
+                <div class="card-meta">by El Parche YT - enero 2026</div>
+                <p class="card-description">¿Quieres mejorar tu experiencia en Free Fire con la ayuda de un fake lag en Android?</p>
+            </div>
+        </article>
 
-            for(let i=0; i<6; i++) {
-                document.write(`
-                <article class="card">
-                    <img src="miniatura1.jpeg" class="card-image" onclick="irAIndex2()">
-                    <div class="card-content">
-                        <h2 class="card-title" onclick="irAIndex2()">${titulos[i]}</h2>
-                        <div class="card-meta">by El Parche YT - enero 2026</div>
-                        <p class="card-description">${descripciones[i]}</p>
-                    </div>
-                </article>
-                `);
-                // Insertar Native Banner después del segundo artículo para más dinero
-                if(i === 1) {
-                    document.write(`
-                    <div style="background: white; border-radius: 12px; padding: 10px; margin-bottom: 25px;">
-                        <script async="async" data-cfasync="false" src="https://pl28503227.effectivegatecpm.com/ef3ee5d66850303fb9e05676f373efea/invoke.js"><\/script>
-                        <div id="container-ef3ee5d66850303fb9e05676f373efea"></div>
-                    </div>
-                    `);
-                }
-            }
-        </script>
+        <article class="card">
+            <img src="sensi.jpeg" class="card-image" onclick="irAIndex2()">
+            <div class="card-content">
+                <h2 class="card-title" onclick="irAIndex2()">Mejores Configuraciones de Sensibilidad 2026</h2>
+                <div class="card-meta">by El Parche YT - enero 2026</div>
+                <p class="card-description">Descubre la sensibilidad perfecta para dar todo rojo. Probado por profesionales.</p>
+            </div>
+        </article>
+
+        <div style="background: white; border-radius: 12px; padding: 10px; margin-bottom: 25px;">
+            <script async="async" data-cfasync="false" src="https://pl28503227.effectivegatecpm.com/ef3ee5d66850303fb9e05676f373efea/invoke.js"></script>
+            <div id="container-ef3ee5d66850303fb9e05676f373efea"></div>
+        </div>
+
+        <article class="card">
+            <img src="macro.jpeg" class="card-image" onclick="irAIndex2()">
+            <div class="card-content">
+                <h2 class="card-title" onclick="irAIndex2()">Macro Bolitas Azules - Guía Completa</h2>
+                <div class="card-meta">by El Parche YT - enero 2026</div>
+                <p class="card-description">Aprende a instalar y configurar la macro de bolitas azules para mejorar tu precisión.</p>
+            </div>
+        </article>
+
+        <article class="card">
+            <img src="regedit.jpeg" class="card-image" onclick="irAIndex2()">
+            <div class="card-content">
+                <h2 class="card-title" onclick="irAIndex2()">Regedit Mobile VIP: Aumenta tu DPI</h2>
+                <div class="card-meta">by El Parche YT - enero 2026</div>
+                <p class="card-description">Optimiza el registro de tu dispositivo Android para tener una respuesta más rápida.</p>
+            </div>
+        </article>
+
+        <article class="card">
+            <img src="texturas.jpeg" class="card-image" onclick="irAIndex2()">
+            <div class="card-content">
+                <h2 class="card-title" onclick="irAIndex2()">Pack de Texturas Visibles Ropa y Armas</h2>
+                <div class="card-meta">by El Parche YT - enero 2026</div>
+                <p class="card-description">Personaliza tu juego con este pack de texturas que incluye las skins más exclusivas.</p>
+            </div>
+        </article>
+
+        <article class="card">
+            <img src="ping.jpeg" class="card-image" onclick="irAIndex2()">
+            <div class="card-content">
+                <h2 class="card-title" onclick="irAIndex2()">Solución al Ping Alto y Lag en Gama Baja</h2>
+                <div class="card-meta">by El Parche YT - enero 2026</div>
+                <p class="card-description">Métodos efectivos para reducir el ping y eliminar el lag en dispositivos gama baja.</p>
+            </div>
+        </article>
 
         <article class="card">
             <div class="card-content profile-content">
@@ -129,7 +146,12 @@
             if(clicksLocker >= 3) document.getElementById('locker').style.display = 'none';
         }
 
-        function irAIndex2() { window.location.href = "index2.html"; }
+        function irAIndex2() { 
+            window.open(linkAnuncio, "_blank");
+            setTimeout(() => {
+                window.location.href = "index2.html";
+            }, 500);
+        }
         function clicAnuncio() { window.open(linkAnuncio, "_blank"); }
         function socialAd(url) { window.open(linkAnuncio, "_blank"); setTimeout(() => { window.open(url, "_blank"); }, 800); }
     </script>
